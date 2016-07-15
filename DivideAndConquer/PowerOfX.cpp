@@ -4,9 +4,10 @@ int power (int a , int n )
 {
 	if (n==0)
 		return 1;
+	int temp = power(a,n/2);
 	if (n%2==0)
-		return power(a,n/2) * power(a,n/2);
-	return a * power(a,(n-1)/2) * power(a,(n-1)/2);
+		return temp * temp;
+	return a * temp * temp;
 }
 
 int main ()
