@@ -12,6 +12,9 @@ int power (int a , int n )
 
 int main ()
 {
-	cout << power (2,9) << endl;
+	int a,n;
+	cout << "Enter Base and Power ";
+	cin >> a >> n ;
+	cout << power (a,n) << endl;
 	return 0;
 }
