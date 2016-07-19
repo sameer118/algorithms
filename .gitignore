@@ -1,1 +1,6 @@
 *.out
+*.orig
+*_BACKUP_*.cpp
+*_BASE_*.cpp
+*_LOCAL_*.cpp
+*_REMOTE_*.cpp
