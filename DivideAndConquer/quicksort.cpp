@@ -27,7 +27,8 @@ int partition(int *a, int l , int r)
 		{
 			i++;
 		}
-		else		{
+		else
+		{
 			swap(a[i],a[j-1]);
 //			print(a,l,r);
 			j--;
