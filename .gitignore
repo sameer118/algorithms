@@ -1,4 +1,6 @@
 *.out
+Test/*
+*.exe
 *.orig
 *_BACKUP_*.cpp
 *_BASE_*.cpp
